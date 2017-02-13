@@ -12,8 +12,8 @@ the [Crystal Programming Language](https://crystal-lang.org/)
 ## Usage
 
 1. run `crystal spec`
-2. observe the result
-3. change the spec to make test pass
+2. observe the test errors
+3. think and make the test pass
 4. goto step 1
 
 ## Development
