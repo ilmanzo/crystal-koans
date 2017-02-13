@@ -11,7 +11,7 @@ the [Crystal Programming Language](https://crystal-lang.org/)
 
 ## Usage
 
-1. run crystal spec
+1. run `crystal spec`
 2. observe the result
 3. change the spec to make test pass
 4. goto step 1
@@ -32,4 +32,4 @@ TODO: stop at first failed test?
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Andrea Manzini - creator, maintainer
+- [ilmanzo](https://github.com/ilmanzo) Andrea Manzini - creator, maintainer
