@@ -11,7 +11,7 @@ the [Crystal Programming Language](https://crystal-lang.org/)
 
 ## Usage
 
-1. run `crystal spec`
+1. run `./koans.sh`
 2. observe the test errors
 3. think and make the test pass
 4. goto step 1
