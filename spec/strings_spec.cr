@@ -31,4 +31,22 @@ describe Student do
     substr1.should eq FILL_IN_THIS_STRING
     substr2.should eq FILL_IN_THIS_STRING
   end
+
+  it "can split strings" do
+    string = "the:rain:in:spain"
+    words = string.split(/:/)
+    words.size.should eq FILL_IN_THIS_NUMBER
+  end
+
+  it "can join strings" do
+    words = ["Now", "is", "the", "time"]
+    words.join.should eq FILL_IN_THIS_STRING
+  end
+
+  it "knows that strings are unique objects" do
+    a = "a string"
+    b = "a string"
+    result = (a.object_id == b.object_id)
+    result.should eq FILL_IN_TRUE_OR_FALSE
+  end
 end
