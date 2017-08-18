@@ -2,7 +2,7 @@
 #uncomment for debugging
 #set -x
 #set the order of tests
-tests=(bool numbers arrays)
+tests=(bool numbers strings arrays)
 #
 for t in "${tests[@]}" 
 do
