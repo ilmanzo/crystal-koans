@@ -2,16 +2,16 @@ require "./spec_helper"
 
 describe Student do
   it "knows the truth" do
-    true.should eq FILL_IN_TRUE_OR_FALSE # what is truth ?
+    true.should eq FILL_IN_THIS # what is truth ?
   end
 
   it "knows boolean algebra" do
     a = true
     b = false
     c = a | b
-    c.should eq FILL_IN_TRUE_OR_FALSE
+    c.should eq FILL_IN_THIS
     d = a & b
-    d.should eq FILL_IN_TRUE_OR_FALSE
+    d.should eq FILL_IN_THIS
   end
 
   it "knows true stuff #1" do
@@ -21,7 +21,7 @@ describe Student do
     else
       b = false
     end
-    b.should eq FILL_IN_TRUE_OR_FALSE
+    b.should eq FILL_IN_THIS
   end
 
   it "knows true stuff #2" do
@@ -31,6 +31,6 @@ describe Student do
     else
       b = false
     end
-    b.should eq FILL_IN_TRUE_OR_FALSE
+    b.should eq FILL_IN_THIS
   end
 end

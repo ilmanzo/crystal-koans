@@ -5,8 +5,8 @@ describe Student do
     a = 3
     b = 2
     c = a + b
-    c.should eq FILL_IN_THIS_NUMBER
+    c.should eq FILL_IN_THIS
     d = a * b
-    d.should eq FILL_IN_THIS_NUMBER
+    d.should eq FILL_IN_THIS
   end
 end
