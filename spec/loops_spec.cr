@@ -22,6 +22,14 @@ describe Student do
 
 
   it "knows until loops" do
+    n=42
+    steps=0
+    until n==4   #https://en.wikipedia.org/wiki/Collatz_conjecture
+       n=n/2 if n%2 == 0
+       n=n*3+1 if n%2 == 1
+       steps+=1
+    end
+    steps.should eq FILL_IN_THIS
   end
 
   it "knows each loops" do
