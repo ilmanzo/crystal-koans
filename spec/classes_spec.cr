@@ -15,7 +15,7 @@ end
 
 class Dog2
   property name : String
-  def initialize(@name)
+  def initialize(@name) # shorthand syntax
   end
 end
 

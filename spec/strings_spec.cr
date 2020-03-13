@@ -9,7 +9,7 @@ describe Student do
 	}
     string.size.should eq FILL_IN_THIS
     long_string.size.should eq FILL_IN_THIS
-    # in Crystal you cannot use single quote for strings
+    # in Crystal you cannot use single quote for strings. Single quotes are for chars (like in C)
     # also refer to https://crystal-lang.org/docs/syntax_and_semantics/literals/string.html
   end
 
