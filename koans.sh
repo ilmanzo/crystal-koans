@@ -2,7 +2,7 @@
 #uncomment for debugging
 #set -x
 #set the order of tests
-tests=(booleans numbers strings symbols arrays tuples hashes ranges loops blocks functions structs classes)
+tests=(booleans numbers strings symbols enums arrays tuples hashes ranges loops blocks functions structs classes)
 #
 for t in "${tests[@]}" 
 do
