@@ -15,4 +15,10 @@ describe Student do
     t = {1, "foo"}
     # t[0] = 10   # compilation error
   end
+
+  it "knows the 'or equal' assignment shortcut" do
+    h = {1 => 'A'}
+    h[3] ||= 'C'
+    h[3].should eq FILL_IN_THIS
+  end
 end
