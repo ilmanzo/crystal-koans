@@ -1,8 +1,10 @@
 #!/bin/bash
 #uncomment for debugging
 #set -x
-#set the order of tests
-tests=(booleans numbers strings symbols enums arrays tuples hashes ranges loops blocks functions structs classes chaining_methods exceptions)
+#define the test order
+tests=(booleans numbers strings symbols enums arrays tuples \
+       hashes ranges loops blocks functions structs classes \
+       chaining_methods exceptions macros)
 #
 for t in "${tests[@]}" 
 do
