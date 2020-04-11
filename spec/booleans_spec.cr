@@ -25,7 +25,7 @@ describe Student do
   end
 
   it "knows true stuff #2" do
-    a = Nil
+    a = nil
     if a
       b = true
     else
