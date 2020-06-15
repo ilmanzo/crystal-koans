@@ -33,6 +33,9 @@ describe Student do
   end
 
   it "knows each loops" do
+    [2, 4, 6, 8].each do |n|
+      (n % 2).should eq FILL_IN_THIS
+    end
   end
 
 end
