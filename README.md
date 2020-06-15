@@ -2,16 +2,15 @@ The Crystal Language Koans
 ==========================
 
 Inspired from RubyKoans, CppKoans, GoKoans; an educational unit test suite for
-the [Crystal Programming Language](https://crystal-lang.org/)
-
+the [Crystal Programming Language](https://crystal-lang.org/).
 
 ## Installation
 
-- clone this repository
+- clone this repository: `git clone "https://github.com/ilmanzo/crystal-koans"`
 
 ## Usage
 
-1. run `./koans.sh`
+1. run `./koans.sh` or run `crystal spec` to run all the tests at once
 2. observe the test errors
 3. think and make the test pass
 4. goto step 1

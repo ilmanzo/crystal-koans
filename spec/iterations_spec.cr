@@ -1,6 +1,4 @@
 require "./spec_helper"
 
-describe Student do 
-    
+describe Student do
 end
-
