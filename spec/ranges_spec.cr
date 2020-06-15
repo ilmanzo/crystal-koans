@@ -9,6 +9,7 @@ describe Student do
     other_range.size.should eq FILL_IN_THIS
     other_range.exclusive?.should eq FILL_IN_THIS
   end
+
   it "knows exclusive ranges" do
     first_range = 1...10                            # notice the triple dot
     other_range = Range.new(1, 10, exclusive: true) # alternate syntax

@@ -35,5 +35,4 @@ describe Student do
   # A struct is mostly used for performance reasons
   # to avoid lots of small memory allocations when passing small
   # copies might be more efficient.
-
 end

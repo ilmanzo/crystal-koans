@@ -11,7 +11,7 @@ end
 
 describe Student do
   it "knows exception handling" do
-    # # implement code to handle this possible failure
+    # implement code to handle this possible failure
     n = failing_function(3)
   end
 
