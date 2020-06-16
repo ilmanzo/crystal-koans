@@ -32,3 +32,4 @@ TODO: stop at first failed test?
 ## Contributors
 
 - [ilmanzo](https://github.com/ilmanzo) Andrea Manzini - creator, maintainer
+- [dorianmariefr](https://github.com/dorianmariefr)

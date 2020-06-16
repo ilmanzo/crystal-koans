@@ -2,9 +2,9 @@
 #uncomment for debugging
 #set -x
 #define the test order
-tests=(booleans numbers strings symbols enums arrays tuples \
-       hashes ranges loops blocks functions structs classes \
-       chaining_methods exceptions macros)
+tests=(booleans numbers strings symbols nil regular_expressions enums \
+       sets arrays tuples sets hashes ranges loops blocks functions \
+       structs classes chaining_methods exceptions macros c_interop)
 #
 for t in "${tests[@]}" 
 do
