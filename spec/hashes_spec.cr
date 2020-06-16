@@ -11,19 +11,19 @@ describe Student do
   end
 
   it "knows hash literals" do
-    hash = { :one => "uno", :two => "dos" }
+    hash = {:one => "uno", :two => "dos"}
     hash.size.should eq FILL_IN_THIS
   end
 
   it "can access hashes" do
-    hash = { :one => "uno", :two => "dos" }
+    hash = {:one => "uno", :two => "dos"}
     hash[:one].should eq FILL_IN_THIS
     # after solving the above, try removing the comment ....
     # hash[:three].should eq FILL_IN_THIS
   end
 
   it "can modify hashes" do
-    hash = { :one => "uno", :two => "dos" }
+    hash = {:one => "uno", :two => "dos"}
     hash[:one] = "eins"
     hash[:one].should eq FILL_IN_THIS
     hash[:three] = "tres"
@@ -31,7 +31,7 @@ describe Student do
   end
 
   it "can access hash key and values" do
-    hash = { :one => "uno", :two => "dos" }
+    hash = {:one => "uno", :two => "dos"}
     hash.keys.size.should eq FILL_IN_THIS
     hash.values.includes?("uno").should eq FILL_IN_THIS
   end

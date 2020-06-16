@@ -12,5 +12,4 @@ describe Student do
   it "knows about regular expressions's groups" do
     /([a-z]+) ([a-z]+)/.match("hello world").try(&.[2]).should eq FILL_IN_THIS
   end
-
 end

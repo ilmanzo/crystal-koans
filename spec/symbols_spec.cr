@@ -23,7 +23,7 @@ describe Student do
     sym = :potatoes
     sym.to_s.should eq FILL_IN_THIS
     sym.inspect.should eq FILL_IN_THIS # why ?
-    sym.to_i.should eq FILL_IN_THIS # this can be a surprise
+    sym.to_i.should eq FILL_IN_THIS    # this can be a surprise
   end
 
   it "knows symbols are cheap" do

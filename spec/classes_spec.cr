@@ -20,7 +20,6 @@ class Dog2
   end
 end
 
-
 describe Student do
   it "can create instances of classes" do
     instance = FirstClass.new

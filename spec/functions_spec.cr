@@ -8,11 +8,11 @@ def double(x : Int)
   x * 2
 end
 
-def manyargs(*args) #*args is a "splat"
+def manyargs(*args) # *args is a "splat"
   return args.size
 end
 
-## double splat captures named parameters
+# # double splat captures named parameters
 def grocerylist(amount, **what)
   return amount + what.size
 end
@@ -26,10 +26,9 @@ describe Student do
   it "knows function parameters" do
     number = double(5)
     number.should eq FILL_IN_THIS
-    another = double 21   # parentheses can be omitted
+    another = double 21 # parentheses can be omitted
     another.should eq FILL_IN_THIS
   end
-
 
   it "knows splat parameters" do
     value = manyargs("you", "can", "call", "me", "with", "many", "parameters")

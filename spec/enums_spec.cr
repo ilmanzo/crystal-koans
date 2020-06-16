@@ -8,9 +8,9 @@ require "./spec_helper"
 
 enum Direction
   North # value 0
-  East # value 1
+  East  # value 1
   South # value 2
-  West # value 3
+  West  # value 3
 end
 
 # Enums are stored internally as integers, but showing their names in the
@@ -29,11 +29,10 @@ end
 # where None has the value 0 and All has the "or"ed value of all constants.
 @[Flags]
 enum FileMode
-    Read # value 1
-    Write # value 2
-    Append # value 4
+  Read   # value 1
+  Write  # value 2
+  Append # value 4
 end
-
 
 # Enums are a type-safe alternative to Symbol, saving you from typo at compile time.
 # The recommended thing to do is to use enums whenever possible,
