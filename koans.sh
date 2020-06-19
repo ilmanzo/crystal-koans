@@ -4,7 +4,7 @@
 #define the test order
 tests=(booleans numbers strings symbols nil regular_expressions enums \
        sets arrays tuples named_tuples sets hashes ranges loops blocks \
-       functions structs classes chaining_methods exceptions macros \ 
+       functions splat structs classes chaining_methods exceptions macros \ 
        c_interop)
 #
 for t in "${tests[@]}" 
