@@ -30,3 +30,5 @@ the [Crystal Programming Language](https://crystal-lang.org/).
 
 - [ilmanzo](https://github.com/ilmanzo) Andrea Manzini - creator, maintainer
 - [dorianmariefr](https://github.com/dorianmariefr)
+- [Daniel Sokil](https://github.com/s0kil)
+
