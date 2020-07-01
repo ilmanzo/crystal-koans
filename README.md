@@ -1,5 +1,4 @@
-The Crystal Language Koans
-==========================
+# The Crystal Language Koans
 
 Inspired from RubyKoans, CppKoans, GoKoans; an educational unit test suite for
 the [Crystal Programming Language](https://crystal-lang.org/).
@@ -10,16 +9,14 @@ the [Crystal Programming Language](https://crystal-lang.org/).
 
 ## Usage
 
-1. run `./koans.sh` or run `crystal spec` to run all the tests at once
+1. run `crystal run koans.cr` or run `crystal spec` to run all the tests at once
 2. observe the test errors
 3. think and make the test pass
 4. goto step 1
 
 ## Development
 
-...work in progress...
-
-TODO: stop at first failed test?
+- Add watcher, that runs test case on file save
 
 ## Contributing
 
