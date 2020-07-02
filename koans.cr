@@ -26,8 +26,8 @@ TESTS = %w(
   c_interop
 )
 
-TESTS.each do |test_case|
-  puts "Testing your strength on #{test_case} ..."
+TESTS.each_with_index(1) do |test_case, test_number|
+  puts "Level #{test_number}: testing your strength on #{test_case} ..."
   spec_process = Process.run("crystal spec spec/#{test_case}_spec.cr", shell: true, error: STDERR, output: STDOUT)
   unless spec_process.success?
     puts "The Master says: "

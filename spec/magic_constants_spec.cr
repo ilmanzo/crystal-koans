@@ -18,20 +18,19 @@ describe Student do
   it "knows about __LINE__" do
     __LINE__.should eq FILL_IN_THIS
   end
-  # __END_LINE__ is the line number of the end of the calling block. 
+  # __END_LINE__ is the line number of the end of the calling block.
   # Can only be used as a default value to a method parameter.
 
-  it "knows about __END_LINE__" do 
-      first_line=__LINE__
-      #Currently at line number: #{__LINE__}
-      measure_function_length(first_line).should eq FILL_IN_THIS
+  it "knows about __END_LINE__" do
+    first_line = __LINE__
+    # Currently at line number: #{__LINE__}
+    measure_function_length(first_line).should eq FILL_IN_THIS
   end
-
 end
 
-# When __LINE__ is declared as the default value to a method parameter, 
+# When __LINE__ is declared as the default value to a method parameter,
 # it represents the line number at the location of the method call.
 
-def measure_function_length(caller_line= __LINE__, end_of_caller = __END_LINE__)
-  end_of_caller-caller_line
+def measure_function_length(caller_line = __LINE__, end_of_caller = __END_LINE__)
+  end_of_caller - caller_line
 end

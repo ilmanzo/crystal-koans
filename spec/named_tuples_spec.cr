@@ -8,7 +8,7 @@ describe Student do
   end
 
   it "can access named tuple string keys" do
-    tuple = {"mykey": 123}  #A named tuple key can also be a string literal
+    tuple = {"mykey": 123} # A named tuple key can also be a string literal
     tuple["mykey"].should eq FILL_IN_THIS
   end
 end
