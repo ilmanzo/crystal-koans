@@ -24,6 +24,7 @@ TESTS = %w(
   magic_constants
   macros
   c_interop
+  low_level_primitives
 )
 
 TESTS.each_with_index(1) do |test_case, test_number|

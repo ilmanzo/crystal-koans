@@ -58,8 +58,8 @@ class Dog3
   end
 end
 
-class Dog4 < Dog3 # inheritance
-  @@puppyCount = 0  # class field
+class Dog4 < Dog3  # inheritance
+  @@puppyCount = 0 # class field
 
   def initialize
     @@puppyCount += 1
