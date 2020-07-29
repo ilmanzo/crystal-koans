@@ -21,6 +21,7 @@ TESTS = %w(
   classes
   chaining_methods
   exceptions
+  concurrency
   magic_constants
   macros
   c_interop

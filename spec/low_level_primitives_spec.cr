@@ -1,10 +1,5 @@
 require "./spec_helper"
 
-class Point
-  def initialize(@x, @y)
-  end
-end
-
 class Customer
   getter zipCode : Int32
 
@@ -33,7 +28,7 @@ describe Student do
   # the size is not simply the sum of the fields, because Crystal also stores the type ID of the object.
   # also the size of other classes may not be what you expect
   it "knows instance_sizeof" do
-    instance_sizeof(Point).should eq FILL_IN_THIS
+    instance_sizeof(Customer).should eq FILL_IN_THIS
     instance_sizeof(String).should eq FILL_IN_THIS
   end
 

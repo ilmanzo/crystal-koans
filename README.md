@@ -9,7 +9,8 @@ the [Crystal Programming Language](https://crystal-lang.org/).
 
 ## Usage
 
-1. run `crystal run koans.cr` or run `crystal spec` to run all the tests at once
+1. run `crystal run koans.cr` to make a small step at a time 
+   or run `crystal spec` to run all the tests at once
 2. observe the test errors
 3. think and make the test pass
 4. goto step 1
