@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 lib C
   fun cos(value : Float64) : Float64

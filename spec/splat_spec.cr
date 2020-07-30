@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 # A method can receive a variable number of arguments by using a splat (*), which can appear only once and in any position
 

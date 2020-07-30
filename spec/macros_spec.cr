@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 macro assign_variable(name, value)
   {% begin %}

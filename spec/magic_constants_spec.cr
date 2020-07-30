@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 # Crystal compiler defines some "magical" predefined constants:
 # https://crystal-lang.org/reference/syntax_and_semantics/constants.html

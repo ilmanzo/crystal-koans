@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 describe Student do
   it "can do the basic math operations" do

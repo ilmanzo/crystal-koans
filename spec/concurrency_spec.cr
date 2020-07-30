@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 # a simple introduction to Crystal concurrency
 # for more details please take a look at

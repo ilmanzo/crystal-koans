@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 # A symbol is a constant that is identified by a name without
 # you having to give it a numeric value. Symbols are interpreted

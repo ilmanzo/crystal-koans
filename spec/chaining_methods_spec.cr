@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 # a fancy example of method chaining to achieve a result
 

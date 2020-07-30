@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 # Set implements a collection of unordered values with no duplicates.
 

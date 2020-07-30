@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 describe Student do
   # The Nil type has only one possible value: nil.

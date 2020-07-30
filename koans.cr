@@ -21,8 +21,9 @@ TESTS = %w(
   classes
   chaining_methods
   exceptions
-  concurrency
+  require_path
   magic_constants
+  concurrency
   macros
   c_interop
   low_level_primitives

@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 describe Student do
   it "can create instances of classes" do

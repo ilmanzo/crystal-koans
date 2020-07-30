@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 def method_with_block
   result = yield

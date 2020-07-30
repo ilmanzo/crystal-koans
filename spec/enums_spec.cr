@@ -1,4 +1,4 @@
-require "./spec_helper"
+require "spec_helper"
 
 # Sometimes you want to limit options not just to symbols but to a smaller
 # set of possibilities. It can be handy to group variables with a discrete
