@@ -19,8 +19,7 @@ require "mynestedlib/otherlib"
 require "mysrclib"
 
 describe Student do
-
-  it "knows simple require" do 
+  it "knows simple require" do
     # 1. a simple require "filename" looks up filename.cr in the require path
     # By default the require path is the location of the standard library that comes with the compiler,
     # and the "lib" directory relative to the current working directory
@@ -34,7 +33,7 @@ describe Student do
 
   it "knows explicit nesting require" do
     # 3. you can always explicit the subfolder of the file to require
-    
+
     NESTEDLIB_CONST2.should eq FILL_IN_THIS
   end
 

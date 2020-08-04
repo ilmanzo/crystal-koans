@@ -25,6 +25,7 @@ TESTS = %w(
   magic_constants
   concurrency
   macros
+  macro_hooks
   c_interop
   low_level_primitives
 )
