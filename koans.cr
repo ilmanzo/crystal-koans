@@ -20,6 +20,7 @@ TESTS = %w(
   structs
   classes
   chaining_methods
+  generics
   exceptions
   require_path
   magic_constants
