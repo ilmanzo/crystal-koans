@@ -6,7 +6,6 @@ require "spec_helper"
 annotation KoansAnnotation
 end
 
-
 # TODO
 describe Student do
   it "" do
