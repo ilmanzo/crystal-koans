@@ -11,8 +11,8 @@ class NoDupQueue(T)
   end
 
   def push(value : T)
-    return if @backing_array.size>0 && @backing_array[-1] == value
-    @backing_array.push value 
+    return if @backing_array.size > 0 && @backing_array[-1] == value
+    @backing_array.push value
   end
 
   def pop

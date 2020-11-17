@@ -7,11 +7,10 @@ require "spec_helper"
 
 require "bit_array"
 
-# TODO
 describe Student do
   it "know how to initialize BitArrays" do
     ba = BitArray.new(12)
-    ba[2]=true
+    ba[2] = true
     ba[0].should eq FILL_IN_THIS
     ba[2].should eq FILL_IN_THIS
   end
