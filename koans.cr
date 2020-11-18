@@ -30,6 +30,7 @@ TESTS = %w(
   c_interop
   low_level_primitives
   bitarray
+  bigint
 )
 
 TESTS.each_with_index(1) do |test_case, test_number|

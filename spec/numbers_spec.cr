@@ -10,6 +10,22 @@ describe Student do
     d.should eq FILL_IN_THIS
   end
 
+  it "can do special math operations (divmod)" do
+    q, r = 17.divmod 6
+    q.should eq FILL_IN_THIS
+    r.should eq FILL_IN_THIS
+  end
+
+  it "can do special math operations (clamp)" do
+    n = 17.clamp(1, 10)
+    n.should eq FILL_IN_THIS
+  end
+
+  it "can do special math operations (significant)" do
+    n = 22/7 # fractional approximation of PI
+    n.significant(3).should eq FILL_IN_THIS
+  end
+
   it "knows floating point" do
     n = 1e10
     n.class.should eq FILL_IN_THIS
