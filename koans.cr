@@ -31,6 +31,7 @@ TESTS = %w(
   low_level_primitives
   bitarray
   bigint
+  html
 )
 
 TESTS.each_with_index(1) do |test_case, test_number|
