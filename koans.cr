@@ -32,6 +32,7 @@ TESTS = %w(
   bitarray
   bigint
   html
+  json
 )
 
 TESTS.each_with_index(1) do |test_case, test_number|

@@ -10,7 +10,6 @@ describe Student do
     HTML.escape("<Crystal> & <You>").should eq FILL_IN_THIS
   end
   it "can unescape HTML entities" do
-    HTML.unescape("&lt;&amp;&gt").should eq FILL_IN_THIS 
+    HTML.unescape("&lt;&amp;&gt").should eq FILL_IN_THIS
   end
-
 end
