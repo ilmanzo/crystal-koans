@@ -7,7 +7,7 @@ the [Crystal Programming Language](https://crystal-lang.org/).
 
 - clone this repository: `git clone "https://github.com/ilmanzo/crystal-koans"`
 
-## Usage
+## Manual Usage
 
 1. run `crystal run koans.cr` to make a small step at a time 
    or run `crystal spec` to run all the tests at once
@@ -15,9 +15,11 @@ the [Crystal Programming Language](https://crystal-lang.org/).
 3. think and make the test pass
 4. goto step 1
 
-## Development
-
-- Add watcher, that runs test case on file save
+## Automatic Usage (run tests on save)
+1. install shard dependencies with `shards install`
+2. open a separate terminal and run `crystal run watch.cr`. Keep it open and visible
+3. observe the test errors, think and make the test pass
+4. tests will automatically run as you save the files. Press CTRL-C to stop the watcher
 
 ## Contributing
 

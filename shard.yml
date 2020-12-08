@@ -1,0 +1,15 @@
+name: crystal-koans
+version: 0.1.0
+
+authors:
+  - Andrea Manzini <ilmanzo@gmail.com>
+
+description: |
+  an educational unit test suite for the Crystal Programming Language.
+
+dependencies:
+  watch:
+    github: danreeves/watch
+
+
+license: MIT
