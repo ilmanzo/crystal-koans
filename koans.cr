@@ -31,6 +31,7 @@ TESTS = %w(
   low_level_primitives
   bitarray
   bigint
+  complex_numbers
   html
   json
 )
