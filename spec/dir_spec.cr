@@ -8,6 +8,6 @@ describe Student do
   it "can enumerate directory content" do
     d=Dir.new("spec")
     d.children.size.should eq FILL_IN_THIS
-    d.entries.size.should eq FILL_IN_THIS   # whats' the difference ?
+    d.entries.size.should eq FILL_IN_THIS   # what's the difference ?
   end
 end
