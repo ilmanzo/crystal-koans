@@ -32,6 +32,7 @@ TESTS = %w(
   bitarray
   bigint
   complex_numbers
+  dir
   html
   json
 )
