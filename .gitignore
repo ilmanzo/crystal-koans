@@ -1,4 +1,5 @@
 /doc/
-/lib/
 /bin/
+/lib/watch
+/lib/.shards.info
 /.shards/
