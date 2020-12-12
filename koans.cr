@@ -45,8 +45,8 @@ TESTS.each_with_index(1) do |test_case, test_number|
   unless spec_process.success?
     test_case_bold=test_case.colorize(:green).mode(:bold)
     print "--- \u{1F9D9} The Master says: ---\n".colorize(:yellow)
-    print "Something is wrong. Please meditate on ".colorize(:green)
-    print test_case_bold," topic\nand try to follow the path to Enlightenment \u{1F9D8}\n".colorize(:green)
+    print "\"Something is wrong. Please meditate on ".colorize(:green)
+    print test_case_bold," topic\nand try to follow the path to Enlightenment \u{1F9D8}\"\n".colorize(:green)
     exit 1
   end
 end
