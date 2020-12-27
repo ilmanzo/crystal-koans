@@ -39,10 +39,23 @@ TESTS = %w(
   csv
 )
 
+PASSED_FILE = ".passed"
+passed = [] of String
+
+if File.exists?(PASSED_FILE)
+  passed = File.read_lines(PASSED_FILE)
+else
+  File.touch(PASSED_FILE)
+end
+
 TESTS.each_with_index(1) do |test_case, test_number|
+  next if passed.includes?(test_case)
+
   puts "Level #{test_number}: testing your strength on #{test_case} ..."
   spec_process = Process.run("crystal spec spec/#{test_case}_spec.cr", shell: true, error: STDERR, output: STDOUT)
-  unless spec_process.success?
+  if spec_process.success?
+    File.open(PASSED_FILE, "a", &.puts(test_case))
+  else
     test_case_bold = test_case.colorize(:green).mode(:bold)
     print "--- \u{1F9D9} The Master says: ---\n".colorize(:yellow)
     print "\"Something is wrong. Please meditate on ".colorize(:green)
