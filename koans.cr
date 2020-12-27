@@ -8,7 +8,6 @@ TESTS = %w(
   nil
   regular_expressions
   enums
-  sets
   arrays
   tuples
   named_tuples
