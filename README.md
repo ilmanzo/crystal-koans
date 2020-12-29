@@ -35,3 +35,4 @@ the [Crystal Programming Language](https://crystal-lang.org/).
 - [Daniel Sokil](https://github.com/s0kil)
 - [Dorian Marié](https://github.com/dorianmariefr)
 - [Jack Kavanagh](https://github.com/jackkav)
+- [collidedscope](https://github.com/collidedscope)
