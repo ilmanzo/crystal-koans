@@ -16,12 +16,22 @@ describe Student do
 
   it "knows times loops" do
     sum = 0
-
     10.times do
       sum += 1
     end
-
     sum.should eq FILL_IN_THIS
+  end
+
+  it "knows upto, downto loops" do
+    sum1, sum2 = 0, 0
+    1.upto 10 do |n| # end is included or not ?
+      sum1 += n
+    end
+    1.downto 10 do |n|
+      sum2 += n
+    end
+    sum1.should eq FILL_IN_THIS
+    (sum1 == sum2).should eq FILL_IN_THIS
   end
 
   it "knows until loops" do
