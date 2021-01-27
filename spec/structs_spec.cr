@@ -31,7 +31,6 @@ describe Student do
   end
 
   # A struct can also include modules and can be generic, just like a class.
-
   # A struct is mostly used for performance reasons
   # to avoid lots of small memory allocations when passing small
   # copies might be more efficient.

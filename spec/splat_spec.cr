@@ -19,5 +19,4 @@ describe Student do
   end
 
   # see also https://crystal-lang.org/reference/syntax_and_semantics/splats_and_tuples.html
-
 end
