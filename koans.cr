@@ -32,6 +32,7 @@ TESTS = %w(
   low_level_primitives
   bitarray
   bigint
+  bigdecimal
   complex_numbers
   dir
   html
