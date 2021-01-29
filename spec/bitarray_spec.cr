@@ -14,4 +14,12 @@ describe Student do
     ba[0].should eq FILL_IN_THIS
     ba[2].should eq FILL_IN_THIS
   end
+
+  it "knows operations on BitArrays" do
+    ba = BitArray.new(16)
+    ba.toggle 4 # toggle a single bit
+    ba[4].should eq FILL_IN_THIS
+    ba.invert # invert the whole array
+    ba[4].should eq FILL_IN_THIS
+  end
 end
