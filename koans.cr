@@ -39,6 +39,7 @@ TESTS = %w(
   json
   csv
   http_server
+  env
 )
 
 CACHE_DIR = ".cache"

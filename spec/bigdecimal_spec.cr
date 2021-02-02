@@ -40,5 +40,4 @@ describe Student do
     number.ceil.should eq FILL_IN_THIS
   end
 
-  # TODO: other operations ?
 end
