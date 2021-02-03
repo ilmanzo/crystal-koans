@@ -34,12 +34,13 @@ TESTS = %w(
   bigint
   bigdecimal
   complex_numbers
+  env
   dir
   html
   json
   csv
   http_server
-  env
+  ecr
 )
 
 CACHE_DIR = ".cache"

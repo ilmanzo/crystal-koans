@@ -1,0 +1,5 @@
+<%- fruits.each_with_index do |fruit,i| -%>
+Fruit id:<%= i+1 %> is <%= fruit -%>
+<%- if i < fruits.size-1 %>,
+<%- end -%>
+<%- end -%>

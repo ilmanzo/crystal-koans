@@ -39,5 +39,4 @@ describe Student do
     number.floor.should eq FILL_IN_THIS
     number.ceil.should eq FILL_IN_THIS
   end
-
 end
