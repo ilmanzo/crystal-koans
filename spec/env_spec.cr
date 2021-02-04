@@ -17,7 +17,6 @@ describe Student do
   it "can enumerate variables" do
     counter = 0
     ENV.each do |key, value|
-      p key, value if key.includes? "PATH"
       counter += 1 if key.includes?("PATH") && /\/.+\//.match value
     end
     counter.should eq FILL_IN_THIS
