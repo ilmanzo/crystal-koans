@@ -14,6 +14,7 @@ describe Student do
   it "knows tuples are immutable" do
     t = {1, "foo"}
     # t[0] = 10   # compilation error
+    t[0].should eq FILL_IN_THIS
   end
 
   it "knows the 'or equal' assignment shortcut" do

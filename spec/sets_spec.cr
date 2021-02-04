@@ -15,7 +15,7 @@ describe Student do
   it "knows subset of a Set" do
     s1.add(2)
     s1.concat([6, 8])
-    s1.subset?(s2).should eq FILL_IN_THIS
-    s2.subset?(s1).should eq FILL_IN_THIS
+    s1.subset_of?(s2).should eq FILL_IN_THIS
+    s2.subset_of?(s1).should eq FILL_IN_THIS
   end
 end

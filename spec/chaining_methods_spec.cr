@@ -9,7 +9,7 @@ describe Student do
       .reject { |n| n.odd? }               # => [10, 8, 6, 4, 2]
       .map { |n| n * n }                   # => [100, 64, 36, 16, 4]
       .select { |n| n % 8 == 0 }           # => [64, 16]
-      .tap { |arr| puts "#{arr.inspect}" } # => [64, 16]
+      #.tap { |arr| puts "#{arr.inspect}" } # => [64, 16]
       .sort!                               # => [16, 64]
       .any? { |num| num > 50 }             # => true
     result.should eq FILL_IN_THIS

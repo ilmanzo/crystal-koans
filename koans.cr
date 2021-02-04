@@ -65,7 +65,7 @@ TESTS.each_with_index(1) do |test_case, test_number|
   end
 
   puts "Level #{test_number}: testing your strength on #{test_case} ..."
-  spec_process = Process.run("crystal spec spec/#{test_case}_spec.cr", shell: true, error: STDERR, output: STDOUT)
+  spec_process = Process.run("crystal spec spec/#{test_case}_spec.cr --fail-fast", shell: true, error: STDERR, output: STDOUT)
   if spec_process.success?
     File.open(PASSED_FILE, "a") do |file|
       file.puts "#{test_case} #{Time.local.to_unix}"
