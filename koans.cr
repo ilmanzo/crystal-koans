@@ -21,6 +21,7 @@ TESTS = %w(
   structs
   classes
   chaining_methods
+  iterators
   generics
   exceptions
   require_path
