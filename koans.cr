@@ -35,6 +35,7 @@ TESTS = %w(
   bigint
   bigdecimal
   complex_numbers
+  levenshtein
   env
   dir
   html
