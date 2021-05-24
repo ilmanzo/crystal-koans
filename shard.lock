@@ -2,5 +2,5 @@ version: 2.0
 shards:
   watch:
     git: https://github.com/danreeves/watch.git
-    version: 1.0.1+git.commit.489bbbfaf4283f6d7a5bbf9ab34ae3c6d00713b2
+    version: 1.0.2+git.commit.34db4db9a6425a564a6a3900438997c8d5e4c536
 
