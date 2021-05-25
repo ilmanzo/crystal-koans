@@ -39,6 +39,7 @@ TESTS = %w(
   levenshtein
   env
   dir
+  path
   html
   json
   csv
