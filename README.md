@@ -1,7 +1,7 @@
 # The Crystal Language Koans
 
 Inspired from RubyKoans, CppKoans, GoKoans; an educational unit test suite for
-the [Crystal Programming Language](https://crystal-lang.org/).
+the [Crystal Programming Language](https://crystal-lang.org/) and standard library.
 
 ## Installation
 

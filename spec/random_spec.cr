@@ -9,7 +9,7 @@ describe Student do
     x = Random.rand(10) # module method
     r = Random.new      
     y = r.rand(10)      # instance method
-    result = (x>0 && x<11 && y>0 && y<11)
+    result = (x>=0 && x<11 && y>=0 && y<11)
     result.should eq FILL_IN_THIS
   end
 end
