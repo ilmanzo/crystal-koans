@@ -26,7 +26,6 @@ def not_annotated_function
   get_student_from_annotation
 end
 
-# TODO
 describe Student do
   it "knows how to use annotations" do
     not_annotated_function.should eq FILL_IN_THIS
