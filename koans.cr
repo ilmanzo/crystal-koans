@@ -29,6 +29,7 @@ TESTS = %w(
   concurrency
   macros
   macro_hooks
+  annotations
   c_interop
   low_level_primitives
   bitarray
