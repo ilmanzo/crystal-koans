@@ -44,6 +44,7 @@ TESTS = %w(
   html
   json
   csv
+  xml
   http_server
   ecr
 )
