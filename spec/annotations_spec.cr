@@ -8,7 +8,7 @@ end
 
 # utility function to extract the annotation value, if present
 macro get_student_from_annotation
-  {% if @def.annotation(StudentAnnotation) %} 
+  {% if @def.annotation(StudentAnnotation) %}
     {{ @def.annotation(StudentAnnotation)[:student_name] }}
   {% else %}
     "unknown"
@@ -16,7 +16,7 @@ macro get_student_from_annotation
 end
 
 # this function is annotated
-@[StudentAnnotation(name: "myself")]
+@[StudentAnnotation(student_name: "myself")]
 def annotated_function
   get_student_from_annotation
 end

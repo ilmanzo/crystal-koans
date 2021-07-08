@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe Student do
   it "knows the truth" do
-    true.should eq FILL_IN_THIS # what is truth ?
+    FILL_IN_THIS.should eq true # what is truth ?
   end
 
   it "knows boolean algebra" do
