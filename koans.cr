@@ -42,7 +42,8 @@ TESTS = %w(
   dir
   path
   html
-  json
+  json_plain
+  json_custom
   csv
   xml
   http_server
