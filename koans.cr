@@ -30,6 +30,7 @@ TESTS = %w(
   macros
   macro_hooks
   annotations
+  type_reflection
   c_interop
   low_level_primitives
   bitarray
@@ -46,6 +47,7 @@ TESTS = %w(
   json_custom
   csv
   xml
+  yaml
   http_server
   ecr
 )
