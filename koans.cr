@@ -39,6 +39,7 @@ TESTS = %w(
   complex_numbers
   random
   levenshtein
+  semantic_version
   env
   dir
   path
