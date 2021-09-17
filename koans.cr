@@ -36,6 +36,7 @@ TESTS = %w(
   bitarray
   bigint
   bigdecimal
+  static_array
   complex_numbers
   random
   levenshtein
