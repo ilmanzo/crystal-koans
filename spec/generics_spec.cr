@@ -2,10 +2,10 @@ require "spec_helper"
 
 # Generics allow you to parameterize a type based on other type.
 
-# let's start by creating a special queue that does not allow duplicates in a row
+# let's start by creating a special stack (LIFO Queue) that does not allow duplicates in a row
 # being generic, this class can store any type T
 
-class NoDupQueue(T)
+class NoDupStack(T)
   def initialize
     @backing_array = Array(T).new
   end
@@ -26,7 +26,7 @@ end
 
 describe Student do
   it "can create and use generic types" do
-    q = NoDupQueue(Int32).new
+    q = NoDupStack(Int32).new
     q.size.should eq FILL_IN_THIS
     q.push(3)
     q.push(4)
@@ -36,7 +36,7 @@ describe Student do
     q.pop.should eq FILL_IN_THIS
   end
   it "can create and use generic types" do
-    q = NoDupQueue(String).new
+    q = NoDupStack(String).new
     q.push("foo")
     q.push("hello")
     q.push("hello")
