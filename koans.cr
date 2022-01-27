@@ -22,6 +22,7 @@ TESTS = %w(
   classes
   chaining_methods
   iterators
+  enumerable
   generics
   exceptions
   require_path
