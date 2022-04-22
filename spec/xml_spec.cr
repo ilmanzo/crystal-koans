@@ -32,5 +32,17 @@ describe Student do
     i_will_have.should eq FILL_IN_THIS
   end
 
-  # TODO add more tests and generation of XML
+  it "knows how to generate XML" do
+    string = XML.build(indent: " ") do |xml|
+      xml.element("note", id: 1) do
+        xml.element("to") { xml.text "Jane" }
+        xml.element("from") { xml.text "John" }
+        xml.element("body") { xml.text "buy milk please" }
+      end
+    end
+    xml_header = "FILL_IN_THIS"
+    string.should contain xml_header
+  end
+
+  # TODO add more tests
 end
