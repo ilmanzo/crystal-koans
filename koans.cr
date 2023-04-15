@@ -70,6 +70,9 @@ else
   File.touch(PASSED_FILE)
 end
 
+percent = (100*passed.size/TESTS.size).round.to_i
+puts "You are at #{percent}% of your journey".colorize(:yellow)
+
 TESTS.each_with_index(1) do |test_case, test_number|
   if timestamp = passed[test_case]?
     mtime = File.info("spec/#{test_case}_spec.cr").modification_time.to_unix
@@ -84,7 +87,7 @@ TESTS.each_with_index(1) do |test_case, test_number|
     end
   else
     test_case_bold = test_case.colorize(:green).mode(:bold)
-    print "--- \u{1F9D9} The Master says: ---\n".colorize(:yellow)
+    print "--- \u{1F9D9} The Master says: ---\n".colorize(:light_yellow)
     print "\"Something is wrong. Please meditate on ".colorize(:green)
     print test_case_bold, " topic\nand try to follow the path to Enlightenment \u{1F9D8}\"\n".colorize(:green)
     exit 1
