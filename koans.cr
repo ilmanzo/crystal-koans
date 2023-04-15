@@ -45,6 +45,8 @@ TESTS = %w(
   env
   dir
   path
+  file
+  io_memory
   html
   json_plain
   json_custom
