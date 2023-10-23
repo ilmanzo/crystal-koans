@@ -20,4 +20,11 @@ describe Student do
     array1[1].should eq FILL_IN_THIS
     array2[2].should eq FILL_IN_THIS
   end
+
+  it "knows flatten method" do
+    nested_array = [1, [2, 3, [4, 5]], 6, [7, 8]]
+    flat_array = nested_array.flatten
+    flat_array.size.should eq FILL_IN_THIS
+    flat_array[5].should eq FILL_IN_THIS
+  end
 end

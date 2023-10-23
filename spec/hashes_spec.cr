@@ -35,4 +35,12 @@ describe Student do
     hash.keys.size.should eq FILL_IN_THIS
     hash.values.includes?("uno").should eq FILL_IN_THIS
   end
+
+  it "knows method put_if_absent" do
+    h = {} of Int32 => String
+    h.put_if_absent(1, "one")
+    h.put_if_absent(1, "uno")
+    h.put_if_absent(2, "two")
+    h[1].should eq FILL_IN_THIS
+  end
 end
