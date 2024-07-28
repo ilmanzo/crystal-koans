@@ -37,6 +37,7 @@ TESTS = %w(
   bitarray
   bigint
   bigdecimal
+  bigrational
   static_array
   complex_numbers
   random
