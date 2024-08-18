@@ -17,6 +17,11 @@ describe Student do
     mult5.should eq FILL_IN_THIS
   end
 
+  it "knows Enumerable method accumulate" do
+    a = [1, 1, 1, 1, 1].accumulate(6)
+    a.should eq FILL_IN_THIS
+  end
+
   # Returns the first element in the collection for which the passed block is true.
   it "knows Enumerable method find" do
     a = [6, 4, 10, 52, 2, 25, 5, 4, 0]
