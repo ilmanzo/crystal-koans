@@ -22,4 +22,8 @@ describe Student do
     p = Path.new("/", "var", "lib", "..", "log", "..", "..")
     p.normalize.to_s.should eq FILL_IN_THIS
   end
+
+  it "understands parent paths" do
+    Path["foo/bar/baz.cr"].parent.to_s.should eq FILL_IN_THIS
+  end
 end
