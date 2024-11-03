@@ -9,6 +9,7 @@ TESTS = %w(
   regular_expressions
   enums
   arrays
+  deque
   tuples
   named_tuples
   sets
