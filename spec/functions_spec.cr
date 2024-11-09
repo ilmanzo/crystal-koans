@@ -17,6 +17,12 @@ def grocerylist(amount, **what)
   return amount + what.size
 end
 
+# internal and external parameters
+# caller uses first one, function use second
+def increment(value, by amount)
+  value + amount
+end
+
 describe Student do
   it "knows functions" do
     value = dummyfunc # function invocations returns a value
@@ -39,4 +45,10 @@ describe Student do
     value = grocerylist(amount: 5, bananas: 3, apples: 2, oranges: 4)
     value.should eq FILL_IN_THIS
   end
+
+  it "knows internal and external parameters" do
+    value = increment(3, by: 2)
+    value.should eq FILL_IN_THIS
+  end
+  
 end
