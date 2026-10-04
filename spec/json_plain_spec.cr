@@ -7,8 +7,6 @@ require "json"
 describe Student do
   it "knows type-safe JSON serialization for standard types" do
     [1, 2, 3].to_json.should eq FILL_IN_THIS
-    myhash = {"x" => 100, "y" => 50}
-    myhash.to_json.size.should eq FILL_IN_THIS
   end
 
   it "knows type-safe JSON serialization for standard types" do

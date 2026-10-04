@@ -24,10 +24,6 @@ describe Student do
     Dir.empty?("spec").should eq FILL_IN_THIS
   end
 
-  it "can test if directory is empty" do
-    Dir.empty?("spec").should eq FILL_IN_THIS
-  end
-
   it "knows that testing for nonexitent directory raises an error" do
     begin
       Dir.empty?("/tmp/foo")
